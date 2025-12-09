@@ -1,0 +1,35 @@
+[project]
+name = "greetings-lib"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mohammed Ali Bellary" }
+]
+requires-python = ">=3.11"
+dependencies = [
+     "colorama==0.4.6"
+
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.0.0",
+    "ruff>=0.8.0"
+]
+
+
+[project.scripts]
+worker = "greetings_lib.greetings:greet"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+packages = ["src/greetings_lib"]
+
+[tool.ruff]
+src = ["src"]
+line-length = 100
+extend-select = ["I"]  # import sorting

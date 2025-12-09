@@ -2,9 +2,9 @@ name: Run Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, development, features/greetings]
   pull_request:
-    branches: [ main ]
+    branches: [ main, development, features/greetings ]
 
 jobs:
   lint-and-test:

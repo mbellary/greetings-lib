@@ -89,3 +89,7 @@ GitHub Actions automatically:
 ### ✔ Runs tests with pytest + coverage
 ### ✔ Upload coverage results to Codecov
 
+## 📄 License
+
+MIT
+

@@ -16,86 +16,16 @@ Use this as the canonical “machine-readable” specification of project conven
 
 ---
 
-## 🏗 Repository Layout
-```bash
-greetings-lib/
-│─ .github/
-│   ├─ workflows/
-│   │   ├─ tests.yml
-│   ├─ branch/
-│   │   ├─ AGENT_BRANCH.md
-│   ├─ issue/
-│   │   ├─ AGENT_BUG_REPORT.md
-│   │   └─ AGENT_FEATURE_REQUEST.md
-│   ├─ pull_request/
-│   │   ├─ AGENT_PULL_REQUEST.md
-├─ src/greetings_lib/
-│   ├─ __init__.py
-│   └─ greetings.py
-├─ tests/
-│   ├─ AGENT_TESTS.md
-│   └─ test_greetings.py
-│─ .coverage
-│─ .pre-commit-config.yaml
-│─ Agents.md
-├─ pyproject.toml
-├─ README.md
-└─ uv.lock
-```
-
----
-
 ## 🛠 Development Environment & Setup
-To set up a development environment with all dependencies, run:
-```bash
-uv pip install -e ".[dev]"
-```
-That installs runtime dependencies (minimal) plus dev-dependencies: 
-
-* ```pytest``` - for testing
-* ```ruff``` - for linting & formatting
-* ```pytest-cov``` - for coverage measurement
-
-Preferred workflow:
-
-1. Run the above command to install dependencies
-2. Use a virtual environment (recommended)
-
+* See `AGENTS_ENVIRONMENT.md` for details.
 ---
 
 ## ✅ Code Style, Linting & Formatting
-
-This project uses Ruff for linting and formatting. Follow these rules:
-
-* Use ```uv run ruff format .``` to automatically re-format code
-* Use ```uv run ruff check .``` to validate linting rules
-* Formatting issues should be fixed before committing or merging
-
-#### Pre-commit hooks recommended:
-
-Install pre-commit and set up a hook so that ruff runs automatically on each commit:
-```bash
-uv pip install pre-commit
-pre-commit install
-```
-Pre-commit config should run:
-* ```ruff --fix```
-* ```ruff-format```
-
+* See `AGENTS_LINTING.md` for details.
 ---
 
 ## 🧪 Testing & Coverage
-* Tests are written using pytest, located under tests/
-* See ```tests/AGENT_TESTS.md``` for details on conventions and workflow.
-<!-- * Example test: tests/test_greetings.py
-* To run the full test suite:
-```bash
-uv run pytest --cov=greetings_lib --cov-report=term
-```
-* Coverage is collected via ```pytest-cov```
-
-CI (GitHub Actions) also runs tests + coverage + lint + format checks on every push / pull request. -->
-
+* See `tests/AGENTS_TESTS.md` for details.
 ---
 
 ## 🔄 CI / GitHub Actions Workflow

@@ -17,42 +17,23 @@ Use this as the canonical “machine-readable” specification of project conven
 ---
 
 ## 🛠 Development Environment & Setup
-* See `AGENTS_ENVIRONMENT.md` for details.
+* See `docs/agents/AGENTS_ENVIRONMENT.md` for details.
 ---
 
 ## ✅ Code Style, Linting & Formatting
-* See `AGENTS_LINTING.md` for details.
+* See `docs/agents/AGENTS_LINTING.md` for details.
 ---
 
 ## 🧪 Testing & Coverage
-* See `tests/AGENTS_TESTS.md` for details.
+* See `docs/agents/AGENTS_TESTS.md` for details.
 ---
 
 ## 🔄 CI / GitHub Actions Workflow
-
-The CI pipeline includes:
-
-* Installing uv
-* Creating virtual env via uv venv
-* Installing dev dependencies via uv pip install -e ".[dev]"
-* Checking formatting (ruff format --check)
-* Running lint (ruff check)
-* Running tests with coverage (pytest --cov=...)
-* Optionally uploading coverage to Codecov (if token or GitHub App configured)
-
-On any failure (lint, formatting, or tests), the CI fails — ensuring code quality.
-
+* See `docs/agents/AGENTS_CI.md` for details.
 ---
 
 ## 🎯 Coding Guidelines
-
-* When adding or modifying code, agents should:
-* Respect the src/ layout — put library code under src/greetings_lib/
-* Add tests under tests/, with meaningful assertions
-* Ensure imports and names follow existing style
-* Run both lint and formatting before commit or PR
-* Include new dependencies only if necessary, and document them in pyproject.toml
-
+* See `docs/agents/AGENTS_CODING_GUIDELINES.md` for details.
 ---
 
 ## 📌 GitHub Collaboration Workflow (Branches, Issues & PRs)
@@ -102,15 +83,6 @@ Keep PRs small and focused.
 
 ---
 
-## 🧩 Useful Commands Summary
-| Purpose                | Command / Action                                      |
-| ---------------------- | ----------------------------------------------------- |
-| Install dev deps       | `uv pip install -e ".[dev]"`                          |
-| Format code            | `uv run ruff format .`                                |
-| Lint code              | `uv run ruff check .`                                 |
-| Run tests + coverage   | `uv run pytest --cov=greetings_lib --cov-report=term` |
-
----
 
 ## ⚠️ Additional Notes
 

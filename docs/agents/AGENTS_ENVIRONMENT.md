@@ -34,7 +34,7 @@ uv --version
 ## 🛠 Project Installation
 Clone the repository:
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/greetings-lib.git
+git clone https://github.com/mbellary/greetings-lib.git
 cd greetings-lib
 ```
 Install dependencies in editable mode (required for tests + CI):
@@ -70,13 +70,21 @@ greetings-lib/
 │─ .github/
 │   ├─ workflows/
 │   │   ├─ tests.yml
+│   │   └─ AGENTS_CI.md
 │   ├─ branch/
-│   │   ├─ AGENT_BRANCH.md
+│   │   ├─ branch.md
 │   ├─ issue/
-│   │   ├─ AGENT_BUG_REPORT.md
-│   │   └─ AGENT_FEATURE_REQUEST.md
+│   │   ├─ bug.md
+│   │   └─ feature.md
 │   ├─ pull_request/
-│   │   ├─ AGENT_PULL_REQUEST.md
+│   │   ├─ pull_request.md
+│   ├─ auto_assign.yml
+│   ├─ CODEOWNERS
+├─ docs/
+│   ├─ AGENTS_CODING_GUIDELINES.md
+│   ├─ AGENTS_COLLABORATION.md
+│   ├─ AGENTS_ENVIRONMENT.md
+│   └─ AGENTS_LINTING.md
 ├─ src/greetings_lib/
 │   ├─ __init__.py
 │   └─ greetings.py

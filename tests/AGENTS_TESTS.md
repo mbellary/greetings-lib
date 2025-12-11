@@ -58,7 +58,7 @@ tests/test_greetings.py
 
 ## 🧹 Format & Lint Before Running Tests
 Tests must not run unless code formatting is clean.
-* See ```AGENTS_LINTING.md``` for details.
+* See ```docs/agents/AGENTS_LINTING.md``` for details.
 
 🚫 CI will fail if formatting or lint errors exist
 

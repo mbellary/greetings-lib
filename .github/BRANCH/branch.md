@@ -30,7 +30,7 @@ All work must be done in a branch **derived from `main`** — never commit direc
 | Fix bug with numeric inputs | `fix/numeric-inputs-cli` |
 | Update README badges | `docs/update-badges` |
 | Improve greet() structure | `refactor/greet-cleanup` |
-| Add missing coverage tests | `test/add-cli-tests` |
+| Add missing coverage tests | `tests/add-cli-tests` |
 
 ---
 

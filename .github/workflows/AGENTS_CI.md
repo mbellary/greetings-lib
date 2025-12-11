@@ -21,8 +21,8 @@ Pipeline triggers:
 
 | Event | Action |
 |-------|--------|
-| `push` to `main` | Full CI run |
-| `pull_request` targeting `main` | Full CI run |
+| `push` to `feature/**` | Full CI run |
+| `pull_request` targeting `feature/**` | Full CI run |
 
 Agents must ensure CI is green **before** merging changes.
 

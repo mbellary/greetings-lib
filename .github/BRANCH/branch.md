@@ -49,7 +49,7 @@ git commit -m "feat: add uppercase flag to CLI"
 git push -u origin feature/uppercase-cli-flag
 ```
 
-## 🔀 PR merging rules
+<!-- ## 🔀 PR merging rules
 
 * Squash and Merge only
 * PR must reference the Issue (Fixes #ID)
@@ -57,7 +57,7 @@ git push -u origin feature/uppercase-cli-flag
 
 ✔ Keeps clean commit history
 
-✔ Ensures traceability to issue
+✔ Ensures traceability to issue -->
 
 ## 🚫 Do NOT
 
@@ -65,3 +65,4 @@ git push -u origin feature/uppercase-cli-flag
 * Create branches without linked issue
 * Merge failing CI
 * Push breaking changes without docs
+* commit directly to `main`.

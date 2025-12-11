@@ -16,92 +16,46 @@ Use this as the canonical “machine-readable” specification of project conven
 
 ---
 
-## 🛠 Development Environment & Setup
+## 🛠 Development Environment & Setup Guidelines
 * See `docs/agents/AGENTS_ENVIRONMENT.md` for details.
 ---
 
-## ✅ Code Style, Linting & Formatting
+## ✅ Code Style, Linting & Formatting Guidelines
 * See `docs/agents/AGENTS_LINTING.md` for details.
 ---
 
-## 🧪 Testing & Coverage
-* See `docs/agents/AGENTS_TESTS.md` for details.
+## 🧪 Testing & Coverage Guidelines
+* See `tests/AGENTS_TESTS.md` for details.
 ---
 
-## 🔄 CI / GitHub Actions Workflow
-* See `docs/agents/AGENTS_CI.md` for details.
+## 🔄 CI / GitHub Actions Guidelines
+* See `.github/workflows/AGENTS_CI.md` for details.
 ---
 
 ## 🎯 Coding Guidelines
 * See `docs/agents/AGENTS_CODING_GUIDELINES.md` for details.
 ---
 
-## 📌 GitHub Collaboration Workflow (Branches, Issues & PRs)
-Follow this standardized flow for all contributions.
-### 1️⃣ Create or Update an Issue
-- Before writing code, confirm the change is tracked in an issue
-- Include clear description + acceptance criteria
-- Reference related PRs/issues when available
-
-### 2️⃣ Create a Working Branch
-Name convention:
-
-* ```feature/<short-description>```
-* ```fix/<short-description>```
-* ```docs/<short-description>```
-```bash
-Example:
-git checkout -b feature/add-logging
-```
-
-### 3️⃣ Implement Code & Tests
-- Follow `AGENTS.md` formatting, linting, and testing rules
-- Commit in small units with descriptive messages:
-```bash
-git add .
-git commit -m "feat: add logging to greet function"
-```
-
-### 4️⃣ Push Branch to GitHub
-```bash
-git push -u origin feature/add-logging
-```
-
-### 5️⃣ Create Pull Request (PR)
-PR checklist:
-
-✔ Link to issue using keywords: “Fixes #123”  
-✔ Tests added/updated  
-✔ Ruff formatting + lint clean  
-✔ CI must pass  
-
-Keep PRs small and focused.
-
-### 6️⃣ Code Review Process
-- Respond to feedback promptly
-- Make fixup commits until approved
-
----
-
-
-## ⚠️ Additional Notes
-
-* Avoid pushing .venv/ or Docker-specific files to package index or PyPI
-* When updating dependencies, maintain version pins in pyproject.toml
-* If adjusting lint or formatting rules, run full test + lint + format suite before merging
-* For large changes, update this file to reflect new workflows or conventions
-* Do Not Commit directly to `main`
-* Do Not merge PRs
-* Do Not Skip tests for functionality changes
+## 📌 GitHub Collaboration Workflow and Guidelines (Branches, Issues & PRs)
+* See `docs/agents/AGENTS_COLLABORATION.md` for details.
 
 ---
 
 ## 🧠 For AI Agents: What to Remember
 
-Before making any changes or generating new code, read this file — it contains authoritative instructions for building, testing, formatting, and packaging the project.
+Before making any changes or generating new code, read this file — it contains authoritative instructions for building, testing, formatting, packaging and github collaboration for this project.
 Treat it as “source of truth” for conventions:
 
 * Use uv, not pip install directly
 * Use the src/ layout
 * Respect lint/format rules — or CI will fail
 * Add tests anytime functionality changes
+* Create duplicate issues
+* Rewrite code without justification
+* Produce large PRs when smaller is possible.
+* When updating dependencies, maintain version pins in pyproject.toml
+* Do Not Commit directly to `main`
+* Do Not merge PRs
+* Do Not Skip tests for functionality changes
+* Do Not push .venv/ or Docker-specific files to package index or PyPI
+* For large changes, update this file to reflect new workflows or conventions

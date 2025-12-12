@@ -14,7 +14,7 @@ It ensures that contributions are traceable, reviewable, and CI-compliant.
 
 ---
 
-## 📝 1️⃣ Issue Workflow
+## 📝 1️⃣ Issue Workflow Guidelines
 
 All changes must start with an Issue.
 
@@ -34,12 +34,12 @@ As a <user/agent>
 I want <feature or fix>
 So that <value provided>
 
-* See `.github/ISSUE_TEMPLATE/bug.md` for details on bug request.
-* See `.github/ISSUE_TEMPLATE/feature.md` for details on feature request.
+* See `.github/ISSUE/bug.md` for details on bug request.
+* See `.github/ISSUE/feature.md` for details on feature request.
 
 ---
 
-## 🌱 2️⃣ Branch Strategy
+## 🌱 2️⃣ Branching Guidelines
 * See `.github/BRANCH/branch.md` for details on branching.
 
 ## 💬 3️⃣ Commit Message Guidelines

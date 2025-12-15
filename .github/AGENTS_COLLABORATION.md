@@ -1,10 +1,15 @@
+---
+applyTo: "**/*.md"
+---
+
+
 # AGENTS_COLLABORATION.md — GitHub Workflow for Branches, Issues & PRs
 
 This document defines how AI agents and developers collaborate using GitHub.  
 It ensures that contributions are traceable, reviewable, and CI-compliant.
 
----
 
+---
 ## 🧭 Collaboration Goals
 
 ✔ Clean and readable Git history  
@@ -34,8 +39,8 @@ As a <user/agent>
 I want <feature or fix>
 So that <value provided>
 
-* See `.github/ISSUE_TEMPLATE/bug.md` for details on bug request.
-* See `.github/ISSUE_TEMPLATE/feature.md` for details on feature request.
+* See `.github/ISSUE/bug.md` for details on bug request.
+* See `.github/ISSUE/feature.md` for details on feature request.
 
 ---
 

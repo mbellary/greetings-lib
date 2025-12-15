@@ -1,3 +1,4 @@
 def greet(name: str) -> str:
-    # commit from features/greetings branch.
+    """Return a greeting message for the given name."""
     return f"Hello from {name}!"
+

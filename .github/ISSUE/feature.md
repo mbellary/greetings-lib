@@ -28,6 +28,7 @@ Users want emphasis formatting for alerting/logging.
 ## 📌 Proposed Implementation
 CLI arg → pass uppercase flag → convert return string.
 
+
 ---
 
 ## 🧠 Notes for AI agents

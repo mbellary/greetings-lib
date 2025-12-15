@@ -37,7 +37,7 @@ Use this as the canonical “machine-readable” specification of project conven
 ---
 
 ## 📌 GitHub Collaboration Workflow and Guidelines (Branches, Issues & PRs)
-* See `docs/agents/AGENTS_COLLABORATION.md` for details.
+* See `.github/AGENTS_COLLABORATION.md` for details.
 
 ---
 

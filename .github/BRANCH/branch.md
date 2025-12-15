@@ -40,6 +40,13 @@ All work must be done in a branch **derived from `main`** — never commit direc
 git checkout -b feature/uppercase-cli-flag
 ```
 
+---
+
+## 📌 Issue
+Add or update the branch details as a comment in the issue.
+
+---
+
 ## 🔁 Development workflow inside branch
 ```bash
 uv run ruff format .

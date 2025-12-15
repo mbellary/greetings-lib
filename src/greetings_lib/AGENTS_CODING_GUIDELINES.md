@@ -80,7 +80,7 @@ uv run pytest --cov
 
 7️⃣ Update documentation (README + AGENTS files) if behavior changes
 
-8️⃣ Submit PR with clear commit messages
+8️⃣ Submit PR with clear commit messages and link it to issue #.
 
 ## 🧩 Major Refactor Workflow
 

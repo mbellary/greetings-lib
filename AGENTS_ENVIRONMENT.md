@@ -78,15 +78,14 @@ greetings-lib/
 │   │   └─ feature.md
 │   ├─ pull_request/
 │   │   ├─ pull_request.md
+│   ├─ AGENTS_COLLABORATION.md
 │   ├─ auto_assign.yml
 │   ├─ CODEOWNERS
 ├─ docs/
-│   ├─ AGENTS_CODING_GUIDELINES.md
-│   ├─ AGENTS_COLLABORATION.md
-│   ├─ AGENTS_ENVIRONMENT.md
-│   └─ AGENTS_LINTING.md
 ├─ src/greetings_lib/
 │   ├─ __init__.py
+│   ├─ AGENTS_CODING_GUIDELINES.md
+│   ├─ AGENTS_LINTING.md
 │   └─ greetings.py
 ├─ tests/
 │   ├─ AGENT_TESTS.md
@@ -94,6 +93,7 @@ greetings-lib/
 │─ .coverage
 │─ .pre-commit-config.yaml
 │─ Agents.md
+│─ AGENTS_ENVIRONMENT.md
 ├─ pyproject.toml
 ├─ README.md
 └─ uv.lock

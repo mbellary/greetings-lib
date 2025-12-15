@@ -64,6 +64,13 @@ Example:
 uv run pytest -v
 ```
 
+## 🔄 Feature Branch Setup
+```bash
+git switch feature/greet-bye-function
+```
+* branch MUST be replaced with the correct branch.
+
+
 ## 🏗 Project Structure Overview
 ```bash
 greetings-lib/

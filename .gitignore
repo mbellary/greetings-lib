@@ -13,4 +13,3 @@ wheels/
 .pytest_cache/
 
 codex_mcp.py
-assistant.py

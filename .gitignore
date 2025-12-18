@@ -8,5 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+.env
 
 .pytest_cache/
+
+codex_mcp.py
+assistant.py

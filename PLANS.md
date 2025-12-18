@@ -134,7 +134,7 @@ If steps can be repeated safely, say so. If a step is risky, provide a safe retr
  
 ## Artifacts and Notes
  
-Include the most important transcripts, diffs, or snippets as indented examples. Keep them concise and focused on what proves success.
+Include the most important github artifacts , transcripts, diffs, or snippets as indented examples. Keep them concise and focused on what proves success.
  
 ## Interfaces and Dependencies
  

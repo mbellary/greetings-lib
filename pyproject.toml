@@ -8,8 +8,10 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-     "colorama==0.4.6"
-
+     "asyncio>=4.0.0",
+     "colorama==0.4.6",
+     "openai>=2.13.0",
+     "openai-agents>=0.6.3",
 ]
 
 [project.optional-dependencies]

@@ -59,3 +59,11 @@ Treat it as “source of truth” for conventions:
 * Do Not Skip tests for functionality changes
 * Do Not push .venv/ or Docker-specific files to package index or PyPI
 * For large changes, update this file to reflect new workflows or conventions
+
+---
+
+# ExecPlans
+
+When writing features or significant refactors, use an ExecPlan (as described in PLANS.md) from design to implementation. ExecPlans are living documents and should be referred to and updated frequently throughout implementation. Store new execplans in plans/$short-feature-name/, e.g.: plans/greetings for the greetings feature.
+
+When instructed to implement an ExecPlan, implement it from start to finish autonomously, solving issues that arise independently. Work tirelessly, diligently; indefatigably. You have infinite time to complete ExecPlans, your context window will auto-compact, so refer back to the ExecPlan whenever it is no longer in your context window and diligently maintain it.
